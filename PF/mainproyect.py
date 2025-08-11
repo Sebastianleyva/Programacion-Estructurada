@@ -11,7 +11,7 @@ def menu_ventas(n_empleado, nombre, apellidos):
         while repite:
             backend.borrarpantalla()
             pregunta=input("Elija la opcion que desea realizar\n 1.-Registrar ventas\n " \
-            "2.-Revisar inventario\n 3.-Modificar el inventario\n 4.-Ver ventas\n 5.-Exportart ventas " \
+            "2.-Revisar inventario\n 3.-Modificar el inventario\n 4.-Ver ventas\n 5.-Exportar ventas " \
             "a excel\n 6.-Salir\n\U0001F449 ")
             match pregunta:
                 case "1":
@@ -82,3 +82,4 @@ def main():
 if __name__ == "__main__":
     main()  
    
+
